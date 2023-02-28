@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(255, 194, 197, 0.57);
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.App h2 {
+  margin-top: 0;
+}
+
+.App p {
+  margin: 2rem;
+}
+
+.App button {
+  background-color: rgba(255, 38, 49, 0.76);
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+}
+
+.App button:active {
+  transform: scale(0.98);
+}
